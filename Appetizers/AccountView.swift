@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AccountView.swift
 //  Appetizers
 //
 //  Created by Mateusz Obłoza on 17/03/2024.
@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AccountView: View {
     var body: some View {
-        VStack {
-        }
+        Text("Account View")
     }
 }
 
 #Preview {
-    ContentView()
+    AccountView()
 }
