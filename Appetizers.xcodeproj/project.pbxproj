@@ -18,6 +18,7 @@
 		61DF3F5C2BA750EE00EACB13 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F5B2BA750EE00EACB13 /* AppetizerListCell.swift */; };
 		61E697D52BA8A1E1009BB9C0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E697D42BA8A1E1009BB9C0 /* NetworkManager.swift */; };
 		61E697D72BA8BE02009BB9C0 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E697D62BA8BE02009BB9C0 /* APError.swift */; };
+		61E697D92BA9FAD0009BB9C0 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E697D82BA9FAD0009BB9C0 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		61DF3F5B2BA750EE00EACB13 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		61E697D42BA8A1E1009BB9C0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		61E697D62BA8BE02009BB9C0 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		61E697D82BA9FAD0009BB9C0 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				61DF3F5B2BA750EE00EACB13 /* AppetizerListCell.swift */,
 				61E697D42BA8A1E1009BB9C0 /* NetworkManager.swift */,
 				61E697D62BA8BE02009BB9C0 /* APError.swift */,
+				61E697D82BA9FAD0009BB9C0 /* AppetizerListViewModel.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				61DF3F5A2BA73D3D00EACB13 /* Appetizer.swift in Sources */,
 				61E697D72BA8BE02009BB9C0 /* APError.swift in Sources */,
 				61DF3F5C2BA750EE00EACB13 /* AppetizerListCell.swift in Sources */,
+				61E697D92BA9FAD0009BB9C0 /* AppetizerListViewModel.swift in Sources */,
 				61DF3F562BA7339600EACB13 /* AccountView.swift in Sources */,
 				614DD6BC2BA7310D00448E1F /* AppetizerTabView.swift in Sources */,
 				61E697D52BA8A1E1009BB9C0 /* NetworkManager.swift in Sources */,
