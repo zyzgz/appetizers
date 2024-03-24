@@ -16,6 +16,8 @@
 		61B5A1322BB075FA00E1CED0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1312BB075FA00E1CED0 /* AppetizerDetailView.swift */; };
 		61B5A1352BB08A8F00E1CED0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1342BB08A8F00E1CED0 /* APButton.swift */; };
 		61B5A1372BB08B6000E1CED0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1362BB08B6000E1CED0 /* XDismissButton.swift */; };
+		61B5A1392BB093F800E1CED0 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */; };
+		61B5A13C2BB0956B00E1CED0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */; };
 		61B8E3062BAEC56900E9765C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B8E3052BAEC56900E9765C /* Alert.swift */; };
 		61DF3F542BA7338800EACB13 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F532BA7338800EACB13 /* AppetizerListView.swift */; };
 		61DF3F562BA7339600EACB13 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F552BA7339600EACB13 /* AccountView.swift */; };
@@ -38,6 +40,8 @@
 		61B5A1312BB075FA00E1CED0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		61B5A1342BB08A8F00E1CED0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		61B5A1362BB08B6000E1CED0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		61B8E3052BAEC56900E9765C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		61DF3F532BA7338800EACB13 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		61DF3F552BA7339600EACB13 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				61DF3F552BA7339600EACB13 /* AccountView.swift */,
+				61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 		61B5A1272BB0255100E1CED0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				61B5A13A2BB0955700E1CED0 /* Extensions */,
 				61B5A12A2BB0258600E1CED0 /* Alerts */,
 				61B5A1282BB0255F00E1CED0 /* Managers */,
 			);
@@ -213,6 +219,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		61B5A13A2BB0955700E1CED0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B5A13C2BB0956B00E1CED0 /* String+Ext.swift in Sources */,
 				61DF3F5A2BA73D3D00EACB13 /* Appetizer.swift in Sources */,
 				61E697D72BA8BE02009BB9C0 /* APError.swift in Sources */,
 				61DF3F5C2BA750EE00EACB13 /* AppetizerListCell.swift in Sources */,
@@ -298,6 +313,7 @@
 				61B8E3062BAEC56900E9765C /* Alert.swift in Sources */,
 				61DF3F542BA7338800EACB13 /* AppetizerListView.swift in Sources */,
 				61DF3F582BA7339D00EACB13 /* OrderView.swift in Sources */,
+				61B5A1392BB093F800E1CED0 /* AccountViewModel.swift in Sources */,
 				61B5A1372BB08B6000E1CED0 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
