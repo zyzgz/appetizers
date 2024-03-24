@@ -18,6 +18,7 @@
 		61B5A1372BB08B6000E1CED0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1362BB08B6000E1CED0 /* XDismissButton.swift */; };
 		61B5A1392BB093F800E1CED0 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */; };
 		61B5A13C2BB0956B00E1CED0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */; };
+		61B5A13E2BB098B800E1CED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A13D2BB098B800E1CED0 /* User.swift */; };
 		61B8E3062BAEC56900E9765C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B8E3052BAEC56900E9765C /* Alert.swift */; };
 		61DF3F542BA7338800EACB13 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F532BA7338800EACB13 /* AppetizerListView.swift */; };
 		61DF3F562BA7339600EACB13 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F552BA7339600EACB13 /* AccountView.swift */; };
@@ -42,6 +43,7 @@
 		61B5A1362BB08B6000E1CED0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		61B5A13D2BB098B800E1CED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		61B8E3052BAEC56900E9765C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		61DF3F532BA7338800EACB13 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		61DF3F552BA7339600EACB13 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				61DF3F592BA73D3D00EACB13 /* Appetizer.swift */,
+				61B5A13D2BB098B800E1CED0 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				61DF3F582BA7339D00EACB13 /* OrderView.swift in Sources */,
 				61B5A1392BB093F800E1CED0 /* AccountViewModel.swift in Sources */,
 				61B5A1372BB08B6000E1CED0 /* XDismissButton.swift in Sources */,
+				61B5A13E2BB098B800E1CED0 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
