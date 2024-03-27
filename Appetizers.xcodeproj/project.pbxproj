@@ -19,6 +19,7 @@
 		61B5A1392BB093F800E1CED0 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */; };
 		61B5A13C2BB0956B00E1CED0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */; };
 		61B5A13E2BB098B800E1CED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A13D2BB098B800E1CED0 /* User.swift */; };
+		61B5A1412BB48C9D00E1CED0 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5A1402BB48C9D00E1CED0 /* EmptyState.swift */; };
 		61B8E3062BAEC56900E9765C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B8E3052BAEC56900E9765C /* Alert.swift */; };
 		61DF3F542BA7338800EACB13 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F532BA7338800EACB13 /* AppetizerListView.swift */; };
 		61DF3F562BA7339600EACB13 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF3F552BA7339600EACB13 /* AccountView.swift */; };
@@ -44,6 +45,7 @@
 		61B5A1382BB093F800E1CED0 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		61B5A13D2BB098B800E1CED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		61B5A1402BB48C9D00E1CED0 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		61B8E3052BAEC56900E9765C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		61DF3F532BA7338800EACB13 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		61DF3F552BA7339600EACB13 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		61B5A12C2BB025DC00E1CED0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				61B5A13F2BB48C8500E1CED0 /* Empty States */,
 				61B5A1332BB08A7900E1CED0 /* Buttons */,
 				61B5A1302BB0261200E1CED0 /* Image */,
 				61B5A12F2BB0260700E1CED0 /* Cells */,
@@ -228,6 +231,14 @@
 				61B5A13B2BB0956B00E1CED0 /* String+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		61B5A13F2BB48C8500E1CED0 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				61B5A1402BB48C9D00E1CED0 /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 				61B5A1352BB08A8F00E1CED0 /* APButton.swift in Sources */,
 				61E697D92BA9FAD0009BB9C0 /* AppetizerListViewModel.swift in Sources */,
 				61DF3F562BA7339600EACB13 /* AccountView.swift in Sources */,
+				61B5A1412BB48C9D00E1CED0 /* EmptyState.swift in Sources */,
 				61B5A11E2BAEFB9F00E1CED0 /* LoadingView.swift in Sources */,
 				61B5A1222BB01EA600E1CED0 /* RemoteImage.swift in Sources */,
 				614DD6BC2BA7310D00448E1F /* AppetizerTabView.swift in Sources */,
